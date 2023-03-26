@@ -4,7 +4,7 @@ const PortfolioProjectPage = () => {
   const router = useRouter();
 
   console.log(router.pathname);
-  console.log(router.query.projectid, "q");
+  console.log(router.query.projectid, "projectId");
 
   return (
     <div>
